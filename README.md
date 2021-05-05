@@ -22,10 +22,10 @@ To approximate spreads and game totals, the python notebook uses ridge regressio
 The prediction model is under the UI section in the notebook. You can find this section in the table of contents or at the bottom of the notebook. After you run all of the cells in the notebook, the UI will appear with a menu with some options.
 
 Here are the descriptions of the options:
-a. 1 NBA Team: Team match-up between 2 NBA teams. There are 2 selection menus where you can set home and away teams.
-b. Random Simulation: Runs a random simulation where for each simulated game, two random teams are chosen to play against each other. There is an extra parameter to determine the count of games to simulate.
-c. 2018-2019 Season: Simulates games from the 2018-2019 season schedule using the exact teams in the NBA dataset from that time period
-d. 2020-21 Season: Simulates games from May 2021 NBA season schedule in purpose for predicting future games
+1.  1 NBA Team: Team match-up between 2 NBA teams. There are 2 selection menus where you can set home and away teams.
+2.  Random Simulation: Runs a random simulation where for each simulated game, two random teams are chosen to play against each other. There is an extra parameter to determine the count of games to simulate.
+3.  2018-2019 Season: Simulates games from the 2018-2019 season schedule using the exact teams in the NBA dataset from that time period
+4.  2020-21 Season: Simulates games from May 2021 NBA season schedule in purpose for predicting future games
 There is another parameter, alpha, which represents the scalar value of the performance gains/losses for each team based on each game. The features that are listed above in the document would vary for each team depending whether they win/loss for each game. For instance, if a home team wins, all values of their point types would increase by multiples of alpha; therefore, their values of each feature will increase and would have a higher chance of winning.
 
 ## Output
