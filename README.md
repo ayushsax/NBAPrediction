@@ -13,9 +13,14 @@ To approximate spreads and game totals, the python notebook uses ridge regressio
 
 
 ## Installation
+1. Download the ZIP files for this repository.
 1. Copy the main repository link for NBAPrediction (https://github.com/ayushsax/NBAPrediction)
 2. Go to Google Colab (https://colab.research.google.com/) and go to the Github tab.
-3. Paste the URL in the top box and run the notebook in Colab.
+3. Paste the URL in the top box
+4. Upload all of the the .csv files from the ZIP file inside the main folder in the files tab (left side).
+5. Select Runtime - Run All to run the notebook
+
+Note: You may also run this notebook locally but Google Colab is recommened.
 
 
 ## Usage
@@ -30,4 +35,3 @@ There is another parameter, alpha, which represents the scalar value of the perf
 
 ## Output
 After running the simulation, the Summary tab will appear containing the average winning percentages and average spread for all home teams in the simulation. On the top right, there is a bar graph displaying the winning percentages for each home team for comparisons. Each tab contains all games for each team in the simulation. For each game, it displays the matchups, spreads, total points, and the gains/losses for each point type that would be influenced in later games.
-
