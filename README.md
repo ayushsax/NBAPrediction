@@ -11,17 +11,17 @@ The model uses five factors scraped from stats.nba.com to determine the predicte
 
 To approximate spreads and game totals, the python notebook uses ridge regression and linear regression, respectively. It is able to predict more than 60% of the games correctly, which is enough to make a profit while betting on basketball. 
 
+You may run the notebook [here](https://drive.google.com/file/d/1_5jTvIv0cp0m409S010UiOXfgTYYhIs1/view?usp=sharing) with Colab, or look at the installation steps.
 
 ## Installation
-1. Download the ZIP files for this repository.
+1. Download the ZIP files for this repository
 1. Copy the main repository link for NBAPrediction (https://github.com/ayushsax/NBAPrediction)
-2. Go to Google Colab (https://colab.research.google.com/) and go to the Github tab.
-3. Paste the URL in the top box
-4. Upload all of the the .csv files from the ZIP file inside the main folder in the files tab (left side).
+2. Go to [Google Colab](https://colab.research.google.com/) and go to the Github tab
+3. Paste the URL in the top text bar
+4. Upload all of the the .csv files from the ZIP file inside the main folder in the files tab (left side)
 5. Select Runtime - Run All to run the notebook
 
 Note: You may also run this notebook locally but Google Colab is recommened.
-
 
 ## Usage
 The prediction model is under the UI section in the notebook. You can find this section in the table of contents or at the bottom of the notebook. After you run all of the cells in the notebook, the UI will appear with a menu with some options.
